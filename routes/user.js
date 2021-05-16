@@ -2,7 +2,7 @@
 const express = require("express");
 const router = express.Router();
 
-// Import - Models
+// Import - models
 const User = require("../models/User");
 
 // Authentification packages - import
