@@ -2,7 +2,8 @@
 
 🗓 May 2021  
 ⏳ Backend part of Marvel school projet (based on Marvel API - comics & characters)  
-👀 Look at the frontend repo!
+👀 Look at the frontend repo!  
+👉🏻 Check [that](https://mymarvel-lereacteur-2021.netlify.app/)
 
 ## Welcome in my Marvel school project 👩🏿‍🎤🥷🏼🦹🏻‍♀️
 
