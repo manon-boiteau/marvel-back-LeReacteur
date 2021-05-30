@@ -1,30 +1,64 @@
-# marvel-back-LeReacteur
+# MARVEL WEB APP 👩🏿‍🎤🥷🏼🦹🏻‍♀️
 
-🗓 May 2021  
-⏳ Backend part of Marvel school projet (based on Marvel API - comics & characters)  
-👀 Look at the frontend repo!  
-👉🏻 Check [that](https://mymarvel-lereacteur-2021.netlify.app/)
+🌤 May 2021  
+⚙️ Backend  
+✨ Frontend - check the frontend [repo](https://github.com/manon-boiteau/marvel-front-LeReacteur.git)  
+🔗 Netlify - check [that](https://mymarvel-lereacteur-2021.netlify.app/)
 
-## Welcome in my Marvel school project 👩🏿‍🎤🥷🏼🦹🏻‍♀️
+## 🌈 Overview - Welcome dude
 
-The Marvel Universe is a fictional universe where the stories in most American comic book titles and other media published by Marvel Comics take place. Super-teams such as the Avengers, the X-Men, the Fantastic Four, the Guardians of the Galaxy, the Defenders, the Midnight Sons, and many Marvel superheroes live in this universe, including characters such as Spider-Man, Iron Man, Thor, the Hulk, Ant-Man, the Wasp, Captain America, Wolverine, Captain Marvel, Black Panther, Doctor Strange, Scarlet Witch, Vision, Black Widow, Ghost Rider, Blade, the Silver Surfer, Nova, Daredevil, Iron Fist, the Moon Knight, the Punisher and Deadpool, among numerous others.
+---
 
-### My work?
+Marvel web app made at [Le Reacteur](https://www.lereacteur.io/) Bootcamp.  
+5 screens are availables: home page with all the Marvel's characters, comics page, individual character page, signup and login.
 
-To code a backend (and a frontend 👉🏻 look at the repo) based on a Marvel API. We have to take data from Marvel API directly into the backend project.  
-Endpoints to build:
+![Marvel home page](assets/marvel-characters-desktop.png)
+![Marvel comics page](assets/marvel-comics-tablette.png)
+![Vinted character page](assets/marvel-character-desktop.png)
+![Marvel signup page](assets/marvel-signup-desktop.png)
+![Marvel login page](assets/marvel-login-tablette.png)]
 
-- List of Marvel's comics
-- List of Marvel's characters
-- List of all the comics per character
-- Search bar (by name and title)
-- Pagination
-- Authentification: login and signup (cookies)
+## 👩🏻‍💻 Tasks
 
-## Stacks
+---
 
-JavaScript, Node.js  
-Express  
-MongoDB
+✘ Create a server (Express)  
+✘ Create models  
+✘ Code signup and login endpoints  
+✘ Do HTTP requests to Marvel's API  
+✘ Implement a React router
+
+## 📚 Stacks
+
+---
+
+[Javascript](https://www.w3schools.com/js/default.asp)  
+[NodeJS](https://nodejs.org/api/documentation.html)  
+[Express](https://github.com/expressjs/express)  
+[Express Formidable](https://github.com/hatashiro/express-formidable)  
+[Mongoose](https://mongoosejs.com/docs/guide.html)  
+[Axios](https://github.com/axios/axios)
+
+## 🗝 Installation and usage
+
+---
+
+Be sure, you have installed all dependencies to run the project.
+
+### 🚙 Running the project
+
+1️. Clone this repository
+
+`git clone https://github.com/manon-boiteau/marvel-back-LeReacteur.git`
+
+`cd marvel-back-LeReacteur`
+
+2️. Install packages
+
+`npm install`
+
+3️. When installation is complete:
+
+`node index.js`
 
 🙏🏻 Thank you @LeReacteur.
