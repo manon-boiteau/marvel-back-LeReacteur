@@ -1,8 +1,5 @@
-// Express - import
 const express = require("express");
 const router = express.Router();
-
-// Axios - import
 const axios = require("axios");
 
 router.get("/comics", async (req, res) => {
@@ -60,5 +57,4 @@ router.get("/comics/:characterId", async (req, res) => {
   }
 });
 
-// Export - endpoints
 module.exports = router;

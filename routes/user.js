@@ -1,16 +1,12 @@
-// Express - import
 const express = require("express");
 const router = express.Router();
-
-// Import - models
 const User = require("../models/User");
 
-// Authentification packages - import
 const uid2 = require("uid2");
 const SHA256 = require("crypto-js/sha256");
 const encBase64 = require("crypto-js/enc-base64");
 
-// Signup endpoints
+// Signup endpoint
 router.post("/user/signup", async (req, res) => {
   try {
     const { email, username, password } = req.fields;
@@ -53,7 +49,7 @@ router.post("/user/signup", async (req, res) => {
   }
 });
 
-// Login endpoints
+// Login endpoint
 router.post("/user/login", async (req, res) => {
   try {
     const { email, password } = req.fields;
@@ -80,5 +76,4 @@ router.post("/user/login", async (req, res) => {
   }
 });
 
-// Export - endpoints
 module.exports = router;
